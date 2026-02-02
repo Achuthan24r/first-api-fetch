@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pro Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>🔥 Pro Dashboard</h2>
+</nav>
+
+<div class="container">
+    <input type="text" id="name" placeholder="Name">
+    <input type="number" id="age" placeholder="Age">
+    <button onclick="addUser()">Add User</button>
+
+    <div id="toast"></div>
+    <div id="users"></div>
+</div>
+
+<!-- Modal -->
+<div id="modal">
+    <div class="modal-content">
+        <input id="editName">
+        <input id="editAge">
+        <button onclick="updateUser()">Update</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
